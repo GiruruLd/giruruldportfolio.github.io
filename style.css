@@ -1,0 +1,65 @@
+section{
+    padding-top: 5rem;
+}
+
+/* Navbar */
+.navbar {
+    background-color:  #3333ff;
+}
+h1 {
+    font-family: 'Kaushan Script', cursive;
+}
+h2, .navbar-brand {
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+.jumbotron {
+    padding-top:  6rem;
+}
+
+
+.jumbotron img {
+    box-sizing: border-box;
+    border: 3px solid #3333ff;
+}
+/* Navbar End */
+
+#about {
+    color: #fff;
+    background-color: #4d4dff;
+}
+
+
+#projects .card {
+    filter: grayscale(0);
+    transition: .3s;
+}
+#projects .card:hover {
+    box-shadow: 0 0 3px  black;
+    filter: contrast(1.4);
+
+}
+
+#contact {
+    color: #fff;
+    background-color: #4d4dff;
+}
+#contact button {
+    font-weight: bold;
+    box-shadow: 0 0 4px black;
+    color: #b6b6e4;
+    border: 2px solid #7575f3;
+    background-color: #2929fc;
+}
+#contact button:hover {
+    color: white;
+    background-color: #0000ff;
+}
+footer{
+    background-color: #3333ff;
+}
+/* Media Query */
+@media (max-width: 425px) {
+    #about1, #about2{
+        text-align: center;
+    }
+}
